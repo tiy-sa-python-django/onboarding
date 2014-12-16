@@ -27,13 +27,22 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+    <section id='md' style='display:none'>
+      #Homework Policy#
+
+* All assignments are due at 8am before class begins
+* No assignments should include copy and pasted code
+* No assignments should include code lifted or 'borrowed' from someone else without propery citation and licensing
+* Incomplete homework is better than late homework
+* Late homework is better than no homework
+* Asking for clarify or help on assignments is encouraged
+* Turning in code that you do not understand is  discouraged and should be noted so we can address those issues
+    </section>
     <script src="javascripts/scale.fix.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.4/zepto.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
     <script>
-      $.get('https://raw.githubusercontent.com/tiy-austin-ror-jan2015/onboarding/gh-pages/homework.md', function (data) {
-        $('#main-content').html(marked(data));
-      });
+        $('#main-content').html(marked($('#md').html()));
     </script>
   </body>
 </html>
