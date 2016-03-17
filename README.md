@@ -10,10 +10,10 @@ Hello and welcome! I'm excited to have you joining the course. This document wil
 
 ## Mindset
 1. Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
-2. You will need to have a growth mindset to succeed in this class. Banish the words "I can't" from your mind for the next twelve weeks.
+  - You will need to have a growth mindset to succeed in this class. Banish the words "I can't" from your mind for the next twelve weeks.
 3. Compose an email to me (robin@theironyard.com) answering the following questions:
-- What aspects of the Growth and Fixed mindset can you identify in your personal history? In what areas do you feel Fixed? Where do you see the most Growth?
-- What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
+  - What aspects of the Growth and Fixed mindset can you identify in your personal history? In what areas do you feel Fixed? Where do you see the most Growth?
+  - What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
 
 ## The Class
 1. Monday-Thursday, class time begins at 9:30, and will last about three hours. Then we'll break for lunch, and have "lab time" until 5pm.
@@ -34,8 +34,8 @@ Hello and welcome! I'm excited to have you joining the course. This document wil
 4. Hard Disk: At least 128GB, with at least 20GB free
 
 ### Upgrade to OS X El Capitan, if your hardware supports it
-1.	You'll need to sign in to the Mac App Store with you Apple ID. If you don't have one, [sign up here](https://appleid.apple.com/).
-2.	Download and install the El Capitan upgrade from the Apple Store: [start here](http://www.apple.com/osx/how-to-upgrade/).
+1. You'll need to sign in to the Mac App Store with you Apple ID. If you don't have one, [sign up here](https://appleid.apple.com/).
+2. Download and install the El Capitan upgrade from the Apple Store: [start here](http://www.apple.com/osx/how-to-upgrade/).
 3. If your mac doesn't support El Capitan, that's ok, as long as you're at least running Mavericks (10.9).
 
 ### Make sure your OS is up to date
@@ -45,9 +45,9 @@ Click on the Apple logo in the upper left of your screen, choose "About This Mac
 We'll standardize on using Atom and Google Chrome as our text editor and web browser. There are plenty of other options out there, it will just be simpler if we're all using the same software.
 
 1. Install [Atom](https://atom.io/) and run it.
-  * Read sections 2.2 through 2.5 of the [atom documentation](https://atom.io/docs/v1.5.4/using-atom-moving-in-atom)
-  * Atom is very powerful and customizable, but it probably isn't worthwhile for you to read about the advanced features in the rest of the documentation yet.
-  * Practice typing and editing some text in Atom.
+  - Read sections 2.2 through 2.5 of the [atom documentation](https://atom.io/docs/v1.5.4/using-atom-moving-in-atom)
+  - Atom is very powerful and customizable, but it probably isn't worthwhile for you to read about the advanced features in the rest of the documentation yet.
+  - Practice typing and editing some text in Atom.
 2. Install [Google Chrome](https://www.google.com/intl/en/chrome/browser/).
 
 ## Python
@@ -55,7 +55,8 @@ We'll use a tool called Homebrew to install Python 3. Homebrew is useful because
 
 1. Open a Terminal window by pressing Command-spacebar, typing "terminal", and hitting Enter.
 2. Copy and paste the following command into the terminal window:
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 3. Homebrew will ask you to enter your password and run several commands to set up. If everything goes well, you should see "Installation successful"
 4. Run "brew doctor" in the terminal, and you should see "Your system is ready to brew."
@@ -64,19 +65,18 @@ We'll use a tool called Homebrew to install Python 3. Homebrew is useful because
 7. Install ipython, an interactive python shell: "pip3 install ipython"
 8. Make sure all of the above worked: "ipython3"
 9. You should see something like:
-    Python 3.5.1 (default, Jan 22 2016, 08:54:32)
 
-    ...a few more lines of stuff...
+        Python 3.5.1 (default, Jan 22 2016, 08:54:32)
+        ...a few more lines of stuff...
+        In [1]:
 
-    In [1]:
-
-This is an interactive python shell. A shell is an application that waits for you to type commands, and then responds to them. The Terminal application you've been using is one kind of shell, and ipython is a different kind of shell that interprets python code as you type. We'll be using it a lot in class.
+    This is an interactive python shell. A shell is an application that waits for you to type commands, and then responds to them. The Terminal application you've been using is one kind of shell, and ipython is a different kind of shell that interprets python code as you type. We'll be using it a lot in class.
 
 10. Type "print ('Hello, world!')"
 11. You should see:
-    Hello, world!
+        Hello, world!
 
-    In [2]:
+        In [2]:
 12. Press control-D to exit.
 
 If all of the above worked fine, you should be ready for your first day of class. If not, work with me and we'll get it fixed before class.
