@@ -21,10 +21,58 @@ Hello and welcome! I'm excited to have you joining the course. This document wil
 3. Class time is mandatory. Per The Iron Yard's guidelines, more than four absences will result in loss of career support, but you can still finish the course.
 4. Being more than 5 minutes late to class will result in a tardy. Two tardies will equal one absence.
 5. Much of the lecture time will involve live coding, and you should follow along and participate.
+7. Ask questions! If something doesn't make sense to you, that's a good opportunity for you to learn by asking a question.
 6. For lab and project time, please work together, ask each other questions, and help each other. I will also be available during lab time, so ask me for help if you need it. However, I'll also be grading assignments, preparing for the next day's class, and various other tasks. If you need to set aside some dedicated time to talk to me one-on-one, book time with me using calendly.
 7. Everyone is expected to participate, and help the rest of the class succeed as well. Rather than list all of the things that you shouldn't do, I'll just ask everyone to keep in mind how your actions affect the learning experience of the rest of the class, and do your part to make this a positive experience for everyone.
 8. This course is meant to be hard. We'll be learning an incredible amount of information in a very short time, and it will be stressful for everyone. Be mindful of how you're handling the hard work and stress, and if you need help, talk to one of the staff sooner rather than later.
 
+## Honesty
+>"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."
+>-James E. Faust
+
+### Honesty Policy
+
+* __Honest with your feedback__
+
+* __Honest with your homework__
+
+* __Honest with your understanding__
+
+* __Honest with your feelings__
+
+* __Honest with your peers__
+
+* __Honest with yourself__
+
+I cannot stress enough the importance of honesty and open communication.
+
+For the sake of Clarity, we'll define Honesty as:
+>Honesty - sincere, blameless, fairly earned, simple, unpretentious, and free of deceit.
+
+## Homework Policy
+
+* All assignments are due at 8am before class begins
+* No assignments should include copy and pasted code
+  - Working with others is encouraged, though. Even if you work together, your fingers should type everything you turn in
+* No assignments should include code lifted or 'borrowed' from someone else without proper citation and licensing
+* Working with other students on your homework is encouraged, but what you turn in should be entirely written by you
+* Incomplete homework is better than late homework
+* Late homework is better than no homework
+* Asking for clarification or help on assignments is encouraged
+* Turning in code that you do not understand is discouraged and should be noted so we can address those issues
+
+## Communication Policy
+
+* More is better than less
+* A peer is better than a google search
+* A google search is better than staring into the abyss†
+* Stargazing is better than giving up
+* Asking for help is always encouraged
+* "I don't understand" is a great answer
+* Sharing is good, but always include a source. Do not spread misinformation
+* Be open when you are struggling, feeling behind, or overwhelmed
+
+† Don't stare into the [Abyss](http://blog.8thlight.com/justin-herrick/2012/09/18/adapting-to-change.html)
 
 ## Computer Setup
 ### Make sure your laptop meets the minimum requirements
@@ -58,12 +106,12 @@ We'll use a tool called Homebrew to install Python 3. Homebrew is useful because
 
         /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-3. Homebrew will ask you to enter your password and run several commands to set up. If everything goes well, you should see "Installation successful"
-4. Run "brew doctor" in the terminal, and you should see "Your system is ready to brew."
-5. Install python 3: "brew install python3"
-6. Upgrade python's package manager: "pip3 install --upgrade pip setuptools"
-7. Install ipython, an interactive python shell: "pip3 install ipython"
-8. Make sure all of the above worked: "ipython3"
+3. Homebrew will ask you to enter your password and run several commands to set up. If everything goes well, you should see `Installation successful`
+4. Run "brew doctor" in the terminal, and you should see `Your system is ready to brew.`
+5. Install python 3 by typing this in the terminal window: `brew install python3`
+6. Upgrade python's package manager: `pip3 install --upgrade pip setuptools`
+7. Install ipython, an interactive python shell: `pip3 install ipython`
+8. Make sure all of the above worked: `ipython3`
 9. You should see something like:
 
         Python 3.5.1 (default, Jan 22 2016, 08:54:32)
@@ -72,7 +120,7 @@ We'll use a tool called Homebrew to install Python 3. Homebrew is useful because
 
     This is an interactive python shell. A shell is an application that waits for you to type commands, and then responds to them. The Terminal application you've been using is one kind of shell, and ipython is a different kind of shell that interprets python code as you type. We'll be using it a lot in class.
 
-10. Type "print ('Hello, world!')"
+10. Type `print ('Hello, world!')`
 11. You should see:
         Hello, world!
 
@@ -83,7 +131,7 @@ If all of the above worked fine, you should be ready for your first day of class
 
 ## Supplemental online tutorials
 
-Spend some time working through the [code academy python tutorial](http://www.codeacademy.com/en/tracks/python). We'll be covering the same material in the first few days of class, but a little practice reading and writing python will help you hit the ground running.
+Spend some time working through the [Code Academy Python tutorial](http://www.codeacademy.com/en/tracks/python). We'll be covering the same material in the first few days of class, but a little practice reading and writing python will help you hit the ground running.
 
 Do the same with the [HTML and CSS](http://www.codecademy.com/en/tracks/web
 ) tutorial. HTML and CSS will be covered in the course, but not to the same depth as Python.
@@ -111,6 +159,8 @@ GitHub is a web-based hosting and communication service for software development
 4. Complete https://try.github.io/.
 
 Check out the [GitHub Guides](https://guides.github.com/) if you want to learn how to use GitHub prior to class.
+
+Full disclosure: git and github can be *very confusing*, even to experienced developers. We'll be learning a lot in class, including how to use github, but it's not unusual to get "stuck" when using git. When that happens, just like any other challenge, please ask for help. This is even more important with git, as it is possible to lose your work with poorly chosen git commands. So when in doubt, stop and ask for help.
 
 # Typing
 One of the best and worst things about being a developer is that computers will do exactly what you tell them. It's as if you have an all-powerful genie who, when you ask them to "make me a sandwich" will happily make you (into) a sandwich. As a developer, that means if you make a typo, the computer will try to do exactly what you say, even if it's nonsense. During your career, you *will* spend countless hours trying to figure out what went wrong when you typed "delete_user" instead of "delete_user()" - those parenthesis are important!
