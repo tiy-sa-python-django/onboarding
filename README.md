@@ -1,5 +1,5 @@
 ## Welcome
-Hello and welcome! I'm excited to have you joining the course. This document will take you through some background and pre-work you'll need to complete to be ready for class. Please read through this material and follow the steps below before the first day of class. By doing this, we'll be ready to get started from day one, and not spend class time getting everyone set up.
+Hello and welcome! I'm excited to have you joining the course. This document will take you through some background and pre-work you'll need to complete to be ready for class. Please read through this material and follow the steps below **before** the first day of class. By doing this, we'll be ready to get started from day one, and not spend class time getting everyone set up. If you get stuck, send me an email (robin@theironyard.com) and I can help.
 
 
 ## Objectives
@@ -19,12 +19,12 @@ Hello and welcome! I'm excited to have you joining the course. This document wil
 1. Monday-Thursday, class time begins at 9:30, and will last about three hours. Then we'll break for lunch, and have "lab time" until 5pm.
 2. Friday is lab time all day. Use this time to work on your assignments and further practice.
 3. Class time is mandatory. Per The Iron Yard's guidelines, more than four absences will result in loss of career support, but you can still finish the course.
-4. Being more than 5 minutes late to class will result in a tardy. Two tardies will equal one absence.
+4. Being more than 5 minutes late to class will result in a tardy. Two tardies will be counted as one absence.
 5. Much of the lecture time will involve live coding, and you should follow along and participate.
 7. Ask questions! If something doesn't make sense to you, that's a good opportunity for you to learn by asking a question.
 6. For lab and project time, please work together, ask each other questions, and help each other. I will also be available during lab time, so ask me for help if you need it. However, I'll also be grading assignments, preparing for the next day's class, and various other tasks. If you need to set aside some dedicated time to talk to me one-on-one, book time with me using calendly.
-7. Everyone is expected to participate, and help the rest of the class succeed as well. Rather than list all of the things that you shouldn't do, I'll just ask everyone to keep in mind how your actions affect the learning experience of the rest of the class, and do your part to make this a positive experience for everyone.
-8. This course is meant to be hard. We'll be learning an incredible amount of information in a very short time, and it will be stressful for everyone. Be mindful of how you're handling the hard work and stress, and if you need help, talk to one of the staff sooner rather than later.
+7. Everyone is expected to participate, and help the rest of the class succeed as well. Rather than list all of the things that you shouldn't do, I ask you to keep in mind how your actions affect the learning experience of the rest of the class, and do your part to make this a positive experience for everyone.
+8. This course is meant to be hard. We'll be learning an incredible amount of information in a very short time, and it will be stressful for everyone. Be mindful of how you're handling the workload and stress, and if you need help, talk to one of the staff sooner rather than later.
 
 ## Honesty
 >"Honesty is more than not lying. It is truth telling, truth speaking, truth living, and truth loving."
@@ -46,16 +46,16 @@ Hello and welcome! I'm excited to have you joining the course. This document wil
 
 I cannot stress enough the importance of honesty and open communication.
 
-For the sake of Clarity, we'll define Honesty as:
+For the sake of clarity, we'll define Honesty as:
 >Honesty - sincere, blameless, fairly earned, simple, unpretentious, and free of deceit.
 
 ## Homework Policy
 
 * All assignments are due at 8am before class begins
 * No assignments should include copy and pasted code
-  - Working with others is encouraged, though. Even if you work together, your fingers should type everything you turn in
+  - Working with others is encouraged, though. Even if you work together, your fingers should type everything you turn in, and more importantly, you should *understand* every line of code.
 * No assignments should include code lifted or 'borrowed' from someone else without proper citation and licensing
-* Working with other students on your homework is encouraged, but what you turn in should be entirely written by you
+  - For instance, Stack Exchange is a popular 'answers' site. If you use an answer to help you get a solution, provide a link to that answer. Again, please make sure you understand the code you use, even if you got help.
 * Incomplete homework is better than late homework
 * Late homework is better than no homework
 * Asking for clarification or help on assignments is encouraged
@@ -81,6 +81,8 @@ For the sake of Clarity, we'll define Honesty as:
 3. Processor: At least 1.4GHz
 4. Hard Disk: At least 128GB, with at least 20GB free
 
+If your laptop doesn't meet those requirements, you probably need to buy one. A used/refurbished laptop is fine, as long as it meets the requirements above.
+
 ### Upgrade to OS X El Capitan, if your hardware supports it
 1. You'll need to sign in to the Mac App Store with you Apple ID. If you don't have one, [sign up here](https://appleid.apple.com/).
 2. Download and install the El Capitan upgrade from the Apple Store: [start here](http://www.apple.com/osx/how-to-upgrade/).
@@ -94,12 +96,13 @@ We'll standardize on using Atom and Google Chrome as our text editor and web bro
 
 1. Install [Atom](https://atom.io/) and run it.
   - Read sections 2.2 through 2.5 of the [atom documentation](https://atom.io/docs/v1.5.4/using-atom-moving-in-atom)
+  - Use those keyboard shortcuts! Moving your hand from the keyboard to the mouse and back is slow!
   - Atom is very powerful and customizable, but it probably isn't worthwhile for you to read about the advanced features in the rest of the documentation yet.
   - Practice typing and editing some text in Atom.
 2. Install [Google Chrome](https://www.google.com/intl/en/chrome/browser/).
 
 ## Python
-We'll use a tool called Homebrew to install Python 3. Homebrew is useful because it (mostly) insulates us from differences between versions of Mac OS X. There are a lot of steps, and depending on what state your computer is in, it's possible the steps below won't work. If that happens, just take a screenshot and email it me (robin@theironyard.com). We'll also spend some time before class starts getting your machine set up and making sure it's working.
+We'll use a tool called Homebrew to install Python 3. Homebrew is useful because it (mostly) insulates us from differences between versions of Mac OS X and other software on your computer. There are a lot of steps, and depending on what state your computer is in, it's possible the steps below won't work. If that happens, just take a screenshot and email it me (robin@theironyard.com). We'll also spend some time before class starts getting your machine set up and making sure it's working.
 
 1. Open a Terminal window by pressing Command-spacebar, typing "terminal", and hitting Enter.
 2. Copy and paste the following command into the terminal window:
@@ -120,7 +123,7 @@ We'll use a tool called Homebrew to install Python 3. Homebrew is useful because
 
     This is an interactive python shell. A shell is an application that waits for you to type commands, and then responds to them. The Terminal application you've been using is one kind of shell, and ipython is a different kind of shell that interprets python code as you type. We'll be using it a lot in class.
 
-10. Type `print ('Hello, world!')`
+10. Type `print('Hello, world!')`
 11. You should see:
         Hello, world!
 
@@ -139,9 +142,9 @@ Do the same with the [HTML and CSS](http://www.codecademy.com/en/tracks/web
 As you go through these courses, take a note of anything that's confusing or surprising, and ask questions about those things at the appropriate time during class. A good habit to have as a software developer is that any time something surprises you, there's probably an opportunity to learn.
 
 ## The Command Line
-The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line a lot in class, so learning the basics now will go a long way.
+The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we often use. We will be using the command line a lot in class, so learning the basics now will go a long way.
 
-Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
+Especially if you’ve never used the command line before, you may want to go through this more than once. Make sure not just to read, but really dive in and use the commands that you learn about.
 
 1. Follow [this tutorial](http://www.davidbaumgold.com/tutorials/command-line/) on command line basics.
 
@@ -160,9 +163,12 @@ GitHub is a web-based hosting and communication service for software development
 
 Check out the [GitHub Guides](https://guides.github.com/) if you want to learn how to use GitHub prior to class.
 
-Full disclosure: git and github can be *very confusing*, even to experienced developers. We'll be learning a lot in class, including how to use github, but it's not unusual to get "stuck" when using git. When that happens, just like any other challenge, please ask for help. This is even more important with git, as it is possible to lose your work with poorly chosen git commands. So when in doubt, stop and ask for help.
+Full disclosure: git and github can be *very confusing*, even to experienced developers. We'll be learning a lot in class, including how to use git and github, but it's not unusual to get "stuck" when using git. When that happens, just like any other challenge, please ask for help. This is even more important with git, as it is possible to lose your work with poorly chosen git commands. So when in doubt, stop and ask for help.
 
 # Typing
 One of the best and worst things about being a developer is that computers will do exactly what you tell them. It's as if you have an all-powerful genie who, when you ask them to "make me a sandwich" will happily make you (into) a sandwich. As a developer, that means if you make a typo, the computer will try to do exactly what you say, even if it's nonsense. During your career, you *will* spend countless hours trying to figure out what went wrong when you typed "delete_user" instead of "delete_user()" - those parenthesis are important!
 
 If you don't know how to touch type (type without looking at the keyboard), spend some time each day working on touch typing (you can try http://www.keybr.com/). If you already know how to touch type, I would highly recommend working through the Python lessons on http://typing.io. Typing for programming is actually a bit different than everyday typing, so getting some practice in could save you a ton of time the first few weeks of class.
+
+# The End
+Thanks for getting this far! I know the above is a lot of information and work, but please make sure you complete it all before class starts so we can all hit the ground running. I'm looking forward to having you in class soon!
