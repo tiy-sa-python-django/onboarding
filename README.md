@@ -16,9 +16,10 @@ Hello and welcome! I'm excited to have you joining the course. This document wil
   - What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
 
 ## The Class
-1. Monday-Thursday, class time begins at 9:30, and will last about three hours. Then we'll break for lunch, and have "lab time" until 5pm.
-2. Friday is lab time all day. Use this time to work on your assignments and further practice.
-3. Class time is mandatory. Per The Iron Yard's guidelines, more than four absences will result in loss of career support, but you can still finish the course.
+1. Monday-Thursday, class time will begin with lecture at 9:30, and will last about three hours. Then we'll break for lunch, and resume class at 1:30 for individual and group work until 5pm.
+2. Friday is individual and group work time all day. Use this time to work on your assignments and further practice.
+3. Periodically we'll have guest lectures and other activities. Some of these will be optional. Your lecturer will let you know what is expected.
+4. Class time is mandatory. Per The Iron Yard's guidelines, more than four absences will result in loss of career support, but you can still finish the course.
 4. Being more than 5 minutes late to class will result in a tardy. Two tardies will be counted as one absence.
 5. Much of the lecture time will involve live coding, and you should follow along and participate.
 7. Ask questions! If something doesn't make sense to you, that's a good opportunity for you to learn by asking a question.
